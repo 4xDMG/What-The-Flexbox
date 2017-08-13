@@ -34,10 +34,11 @@ a {
 
 /* Flexbox Starts Here: */
 .elements {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .item {
-  flex: 1 1 calc(33.33% - 20px);
+  flex: 0 1 calc(33.3333333% - 20px);
 }
